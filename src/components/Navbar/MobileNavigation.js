@@ -44,7 +44,7 @@ const MobileNavigation = () => {
                  <a  href='/'>Home</a>
             </List>
            <List >
-              <a href='/'>About Us</a>
+              <a href='/'>About </a>
            </List>
            <List>
               <a href='/'>Package</a>
