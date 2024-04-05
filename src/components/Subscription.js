@@ -5,7 +5,7 @@ function Subscription() {
   return (
     <Container>
         <SubscriptionForm>
-            <Title>Subscribe to get information, latest news and other interesting offers about Cobham</Title>
+            <Title>Subscribe to get information, latest news and other interesting offers about us</Title>
             <Form>
                 <Field placeholder='✉️ Your Email'/>
                 <Button style={{textDecoration: 'none'}}>Subscribe</Button>

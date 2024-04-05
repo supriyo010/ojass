@@ -70,7 +70,7 @@ const Navigation = () => {
               <a href='#about-us' style={{color: 'white', textDecoration: 'none'}}>About</a>
            </List>
            <List>
-              <a href='#packages' style={{color: 'white', textDecoration: 'none'}}>Package</a>
+              <a href='#packages' style={{color: 'white', textDecoration: 'none'}}>Services</a>
           </List>
         </Nav>
      );

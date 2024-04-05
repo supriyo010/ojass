@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import cover from '../assets/cover.png';
+import cover from '../assets/car-parh.jpg';
 import GoogleIcon from '@mui/icons-material/Google';
 const SignIn = () => {
     return (

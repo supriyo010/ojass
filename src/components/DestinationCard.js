@@ -24,7 +24,7 @@ const Container = styled.div`
     border: 0.5px solid #647696;
     display: flex;
     margin: 2vh 5vw;
-    width: 48vw;
+    width: 38vw;
     border-radius: 12px;
     box-shadow: 10px 10px 51px -25px rgba(0,0,0,0.75);
     -webkit-box-shadow: 10px 10px 51px -25px rgba(0,0,0,0.75);
@@ -45,7 +45,7 @@ const Container = styled.div`
 `
 
 const Image = styled.img`
-    height: 15vh;
+    height: 22vh;
     margin-right: 2vw;
     @media (max-width: 480px) {
         width: 100%;

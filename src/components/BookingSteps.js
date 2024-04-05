@@ -10,7 +10,7 @@ function BookingSteps() {
         <Body>
             <Left>
                 <Step 
-                title='Choose Destination'
+                title='Choose Service'
                 text='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus.'
                 image='step1.png'
                 />
@@ -20,12 +20,12 @@ function BookingSteps() {
                 image='step2.png'
                 />
                 <Step 
-                title='Reach Airport on Selected Date'
+                title='Traffic'
                 text='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus.'
                 image='step3.png'
                 />
             </Left>
-            <Right src={require('../assets/greeceexample.png')} alt=''/>
+            <Right src={require('../assets/car logo.png')} alt=''/>
         </Body>
     </Container>
   )

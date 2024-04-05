@@ -29,12 +29,12 @@ function Navbar() {
     <Nav>
       <Left>
         <a href="/">
-          <Logo src={require("../../assets/TravelGo.png")} />
+          <Logo src={require("../../assets/web-logo.png")} />
         </a>
       </Left>
       <Navigation />
       {openNav && <MobileNavigation />}
-      <Right>
+      <Right>   
         <FavIcon size="42" />
         <Profile src={require("../../assets/Profile.png")} alt="Profile" />
         <Login href="/signin" style={{ textDecoration: "none" }}>
@@ -53,7 +53,7 @@ function Navbar() {
     <FixedNav>
       <Left>
         <a href="/">
-          <Logo src={require("../../assets/TravelGo.png")} />
+          <Logo src={require("../../assets/web-logo.png")} />
         </a>
       </Left>
       <Navigation />

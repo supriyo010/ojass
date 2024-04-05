@@ -7,36 +7,30 @@ function Packages() {
   return (
     <Container  id='packages'>
 
-        <Title>Best Packages For You</Title>
+        <Title>safety is your first  piority</Title>
         <Package>
-            <PackageSelect title='Hot Deals' active={true} />
-            <PackageSelect title='Backpack' active={false} />
-            <PackageSelect title ='South Asia'active={false} />
-            <PackageSelect title='United States' active={false} />
-            <PackageSelect title='Russia' active={false} />
-            <PackageSelect title='More' active={false} />
+        <PackageSelect title='Parking' active={true} />
+           
+            
+            <PackageSelect title='Traffic' active={false} />
+            <PackageSelect title='Safety' active={false} />
+         
         </Package>
         <PackageCards>
             <PackageCard
-                location='Indonesia'
-                cost='$500 / Person'
-                tagline='Explore the Beauty of the island for 3 days and 2 nights with our travel agency'
-                stay='3 Days, 2 Nights'
-                image='indonesia2.png'
+                location='Safety '
+                
+                image='parking-multi-storey-car-park.jpg'
             />
             <PackageCard
-                location='Japan'
-                cost='$800 / Person'
-                tagline='Enjoy the Shrimes and blossoms here in this beautiful country'
-                stay='3 Days, 2 Nights'
-                image='japan.png'
+                location=''
+                
+                image='car.jpg'
             />
             <PackageCard
-                location='Mountains'
-                cost='$600 / Person'
-                tagline='Explore the majestic mountains and landscapes day and nights'
-                stay='3 Days, 2 Nights'
-                image='mountains.png'
+                location=''
+              
+                image='car-parh.jpg'
             />
         </PackageCards>
         <Discover href='/'>Discover More</Discover>

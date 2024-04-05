@@ -10,8 +10,8 @@ function Footer() {
     <Container style={{background: '#333'}}>
 
         <Left>
-          <Logo src={footerLogo} alt='' /> 
-          <LeftText>Book your trip in minute, get full Control for much longer.</LeftText>
+          <Logo src={""} alt='' /> 
+          <LeftText>Copyright.Developed by X-Combinator</LeftText>
         </Left>
 
         <Mid className='links'>
@@ -29,9 +29,9 @@ function Footer() {
           </List>
           <List className='list'>
             <ListTitle className="m-2">More</ListTitle>
-            <a href='#home'  className="m-2">Airline Fees</a>
-            <a href='#home'  className="m-2">Airline</a>
-            <a href='#home'  className="m-2">Low Fare Trips</a>
+            <a href='#home'  className="m-2"></a>
+            <a href='#home'  className="m-2"></a>
+            <a href='#home'  className="m-2"></a>
           </List>
         </Mid>
 

@@ -1,17 +1,19 @@
 import React from 'react'
 import styled from 'styled-components'
+
+
 function Cover() {
   return (
     <Container id='home'>
-      <CoverImg src={require('../assets/cover.jpg')} alt="cover" />
+      <CoverImg src={require('../assets/main-bg-image.png')} alt="cover" />
       <CoverBody>
-        <CoverTitle>Your Imagination Is</CoverTitle>
-        <CoverTitle>Your Only Limit</CoverTitle>
+        <CoverTitle>Your Smart Solution for</CoverTitle>
+        <CoverTitle>Seamless City Living</CoverTitle>
         <CoverTextu>We always try to make our customer happy. We provide all kind of facilities.</CoverTextu>
         <CoverText>Your satisfaction is our main priority</CoverText>
-        <CoverButton href='/'>Discover More</CoverButton>
+        <CoverButton href=''>Discover More</CoverButton>
       </CoverBody>
-      <BottomFade />
+      <BottomFade/>
     </Container>
   )
 }
@@ -28,6 +30,7 @@ const CoverImg = styled.img`
   width: 100vw;
   height: 100vh;
   object-fit: cover;
+  backdrop-filter: blur(10px);
 `
 
 const BottomFade = styled.div`
@@ -54,14 +57,15 @@ const CoverBody = styled.div`
 
 `
 const CoverTitle = styled.div`
-  color: white;
+  color: yellow;
+  border-color:black;
   font-weight: 800;
   font-size: 7vh;
   text-align: center;
   line-height: 65px;
 `
 const CoverText = styled.div`
-  color: white;
+  color: yellow;
   font-weight: 600;
   line-height: 35px;
 `
@@ -82,7 +86,7 @@ border-radius: 3px;
 padding:20px 60px; 
 margin-top:4vh;
 display:inline-block;
-    color:white;
+    color:yellow;
     transition:all 0.8s, color 0.3s 0.3s;
      cursor:pointer;
       background:#04A551;

@@ -1,27 +1,33 @@
 import React from 'react'
 import styled from 'styled-components'
 import ServiceCard from './ServiceCard'
+import { Outlet, Link } from "react-router-dom";
+
+
 
 const cards = [
     {
-        title: "Ticket Booking",
-        text: "We Book All Kinds of national or international tickets for your destination.",
-        image: "ticket.png",
-        active: false
+        title: "Smart-Parking",
+        text: "Parking Made Simple with Smart Solutions",
+        image: "car-parking-icon.png",
+        active: false,
+        id:"good",
     },
     {
-        title: "Hotel Booking",
-        text: "You can easily book your according to your budget hotel by our website.",
+        title: "Travel Buddy",
+        text: "Stay Ahead of Conjestion with your Dedicated Travel Buddy",
         image: "hotel.png",
         active: false
     },
     {
-        title: "Tour Plan",
-        text: "We provide you the best plan within a short time explore more.",
+        title: "WayFinder",
+        text: "Smart Solution for Pedestrian Safety",
         image: "tour.png",
         active: false
+
     }
 ]
+
 
 function Service() {
   return (
@@ -33,7 +39,28 @@ function Service() {
                     <ServiceCard title={card.title} text={card.text} image={card.image} active={card.active} key={card.id} />
                 ))
             }
+            
         </ServiceCardContainer>
+        <>
+        <br></br>
+        
+        </>
+        
+
+          <div>
+      
+        <div class="d-inline-flex p-2 gap-36 ">
+          <li>
+          <button>  <Link to={"Next"}>click on </Link></button>
+          </li>
+          
+          </div>
+          </div>
+          
+      
+   
+    
+      
     </Container>
   )
 }
@@ -68,6 +95,25 @@ const ServiceTitle = styled.div`
   font-size: 30px;
   color: rgb(240, 240, 240);
 `
+const Nav  = styled.ul`
+     display: none;
+     flex-direction: column;
+     transition: 1s ease;
+     align-items: center;
+     flex:1;
+     border-radius: 1rem;
+     height: 50vh;
+     width: 50%;
+     background-color:rgba(0, 0, 0, 0.842);
+     position: fixed;
+     right: 0;
+     top:12vh;
+     margin: 0 2rem;
+     
+     @media (max-width:600px) {
+        display: flex;
+     }
+     `
 
 const ServiceCardContainer = styled.div`
     margin-top: 7.5vh;
