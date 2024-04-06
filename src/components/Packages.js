@@ -7,7 +7,7 @@ function Packages() {
   return (
     <Container  id='packages'>
 
-        <Title>safety is your first  piority</Title>
+        <Title>Safety is your first  piority</Title>
         <Package>
         <PackageSelect title='Parking' active={true} />
            
